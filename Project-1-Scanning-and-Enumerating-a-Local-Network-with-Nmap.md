@@ -46,11 +46,27 @@ nmap -sV 192.168.1.0/24
 Expected Output: A detailed list of open ports and the services running on them, including version information.
 
 ### Task 4: Operating System Detection
-Use the -O option to detect the operating systems of devices on the network:
+Step 1: Use the -O option to detect the operating systems of devices on the network:
 ```sh
 sudo nmap -O 192.168.1.0/24
 ```
 Expected Output: The operating system details of the devices on the network.
+
+### Task 5: Aggressive Scan
+Step 1: Perform an aggressive scan using the -A option, which includes OS detection, version detection, script scanning, and traceroute:
+```sh
+sudo nmap -A 192.168.1.0/24
+```
+Expected Output: Comprehensive information about the devices on the network, including open ports, services, versions, operating systems, and traceroute details.
+
+## Additional Resources
+Nmap Official Documentation
+Nmap Cheat Sheet
+Online Nmap Course on Udemy
+
+
+This project will give you a solid foundation in using Nmap for network scanning and enumeration, essential skills for any ethical hacker.
+
 
 
 
